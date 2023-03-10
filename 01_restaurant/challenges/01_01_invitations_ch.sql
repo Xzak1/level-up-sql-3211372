@@ -2,6 +2,6 @@
 
 -- Show their first name, last name, and email address.
 -- Sort the list of results by last name.
-select FirstName, LastName, Email 
-from Customers 
-group by LastName;
+SELECT FirstName, LastName, Email 
+FROM Customers 
+GROUP BY LastName;
